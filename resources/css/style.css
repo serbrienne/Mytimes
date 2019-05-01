@@ -1,12 +1,47 @@
-.header{
-display: flex;
-font-family: Verdana;
-font-size: 14px;
-font-weight: bold;
-color: MediumAquamarine;
+/* Header section */
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: black solid 1px;
+  padding-bottom: 10px;
+  }
+
+  a:visited{
+    color: black;
+  }
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  border: black solid 1px;
 }
 
-.header nav{
- display: inline-block;
- color: black;
+.title img {
+  padding-right: 10px;
+}
+
+.title span {
+  color: MediumAquamarine;
+}
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+/*Main new stories */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main div {
+  border: black solid 1px;
 }
