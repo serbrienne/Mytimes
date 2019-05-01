@@ -1,0 +1,12 @@
+.header{
+display: flex;
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+color: MediumAquamarine;
+}
+
+.header nav{
+ display: inline-block;
+ color: black;
+}
