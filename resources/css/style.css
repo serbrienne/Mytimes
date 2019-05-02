@@ -1,3 +1,20 @@
+/* universal section */
+a:visited {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 /* Header section */
 header {
   display: flex;
@@ -7,10 +24,10 @@ header {
   align-items: center;
   border-bottom: black solid 1px;
   padding-bottom: 10px;
-  }
-
-  a:visited{
-    color: black;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+  height: 80px;
   }
 
 .title {
@@ -30,18 +47,86 @@ header {
 }
 header nav {
   padding-right: 40px;
+  background-color: white;
 }
 
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
+
+
+
+/* universal story section */
+.content {
+  display: flex;
+  padding-top: 30px;
+  width: 1232px;
+  margin: 0 auto 78 auto;
+  }
+.stories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 17px;
+
 }
-/*Main new stories */
-main {
+
+.text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.imgstyle {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+}
+.story {
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
-main div {
-  border: black solid 1px;
+/* large column section */
+
+.Largecolumn {
+  width: 630px;
+  padding-right: 30px;
+}
+.imageheader {
+
+
+}
+.mainstory {
+}
+.img1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+margin-right: 30px;
+}
+.img2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+.mainstory .imageheader {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+}
+
+
+
+
+/*Medium Column Section */
+.mediumcolumn {
+  width: 300px;
+  padding-right: 30px;
+}
+.img3 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+/* small column section */
+.smallcolumn {
+  width: 240px;
 }
